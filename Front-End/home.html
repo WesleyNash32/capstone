@@ -17,12 +17,26 @@
             <a href="cretaceous.html">Cretaceous Period</a>
         </nav>
     </header>
-    <br>
     <main>
         <div id="mesozoic-era">
             <p></p>
         </div>
         <img src=""/>
+        <form id="dinosaur-form">
+            <input id="dino-name" type="text" placeholder="Name of Dinosaur">
+            <input id="dino-img" type="text" placeholder="Paste url of Dinosaur">
+            <select id="periods" onchange="window.location.href=this.value">
+                <option value="triassic.html">Triassic</option>
+                <option value="jurassic.html">Jurassic</option>
+                <option value="cretaceous.html">Cretaceous</option>
+            </select>
+            <select id="type-of-dino">
+                <option value="aquatic">Aquatic Reptile</option>
+                <option value="flying">Flying Reptile</option>
+                <option value="land">Dinoasurs</option>
+            </select>
+            <button id="add-dino">Add Animal</button>
+        </form>
     </main>
     <script src="./node_modules/axios/dist/axios.min.js"></script>
     <script src="main.js"></script>

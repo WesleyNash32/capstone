@@ -1,19 +1,18 @@
-const triassicbtn = document.getElementById('triassic-container')
-const jurassicbtn = document.getElementById('jurassic-container')
-const cretaceousbtn = document.getElementById('cretaceous-container')
-const form = document.querySelector('form')
+const { createDiffieHellman } = require("crypto")
+const { appendFile } = require("fs")
 
-const triassicURL = ''
-const jurassicURL = ''
-const cretaceousURL = ''
+const addDinoBtn = document.getElementById('add-dino')
+const newTriCard = document.getElementById('triassic-container')
+const newJurCard = document.getElementById('jurassic-container')
+const newCreCard = document.getElementById('cretaceous-container')
+const form = document.getElementById('dinosaur-form')
+const dinoImg = document.getElementById('dino-img')
+const dinoName = document.getElementById('dino-name')
+const eras = document.getElementById('periods')
+const dinoType = document.getElementById('type-of-dino')
 
-
-
-function addDinosaur(dino) {
-    const createDinoCard = document.createElement('div')
-    createDinoCard.classList.add('triassic-card')
-
+function submitDinoBtn() {
+    const DinoCard = document.createElement('div');
+    DinoCard.classList.add('dino-card')
     
-
-    triassicbtn.appendChild(createDinoCard)
 }
