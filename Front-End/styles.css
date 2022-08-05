@@ -1,20 +1,71 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
 body {
     margin: auto;
     padding: 0%;
     background-color: dimgrey;
 }
 
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 header {
-    height: 200px;
+    height: 180px;
     background-color: brown;
+    border: 50px;
+    border-radius: 30px, ;
     display: flex;
     flex-direction: row;
     align-content: center;
     justify-content: center;
+    font-size: xx-large;
+}
+
+section.prehistoric-card {
+    background-color: crimson;
+    height: 350px;
+    width: 150px;
+    display: flex;
+
+}
+
+form {
+    width: 350px;
+    height: 350px;
+    background-color: blanchedalmond;
+    position: relative;
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-evenly; 
+    align-items: center;
+    margin: 30px;
+}
+
+#nav {
+    height: 75px;
+    background-color: orangered;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
 }
 
 nav {
+    width: 300px;
     display: flex;
-    align-content: center;
-    justify-items: center;
+    justify-content: space-between;
+}
+
+#mesozoic {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
 }

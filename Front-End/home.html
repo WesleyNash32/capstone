@@ -10,33 +10,40 @@
 <body>
     <header>
         <h1>Mesozoic Era</h1>
-        <nav>
-            <a href="home.html">Home</a>
-            <a href="triassic.html">Triassic Period</a>
-            <a href="jurassic.html">Jurassic Period</a>
-            <a href="cretaceous.html">Cretaceous Period</a>
-        </nav>
     </header>
+    <div id="nav">
+        <nav>
+            <a href="#mesozoic">Mesozoic Era</a>
+            <a href="#DinosaurList">Dinosaur List</a>
+        </nav>
+    </div>
     <main>
-        <div id="mesozoic-era">
-            <p></p>
-        </div>
-        <img src=""/>
-        <form id="dinosaur-form">
-            <input id="dino-name" type="text" placeholder="Name of Dinosaur">
-            <input id="dino-img" type="text" placeholder="Paste url of Dinosaur">
-            <select id="periods" onchange="window.location.href=this.value">
-                <option value="triassic.html">Triassic</option>
-                <option value="jurassic.html">Jurassic</option>
-                <option value="cretaceous.html">Cretaceous</option>
-            </select>
-            <select id="type-of-dino">
-                <option value="aquatic">Aquatic Reptile</option>
-                <option value="flying">Flying Reptile</option>
-                <option value="land">Dinoasurs</option>
-            </select>
-            <button id="add-dino">Add Animal</button>
-        </form>
+        <aside>
+            <form id="dinosaur-form">
+                <input id="dino-name" type="text" placeholder="Name of Dinosaur">
+                <input id="dino-img" type="text" placeholder="Paste url of Dinosaur">
+                <select id="periods">
+                    <option value="triassic">Triassic</option>
+                    <option value="jurassic">Jurassic</option>
+                    <option value="cretaceous">Cretaceous</option>
+                </select>
+                <select id="type-of-dino">
+                    <option value="aquatic">Aquatic</option>
+                    <option value="flying">Flying</option>
+                    <option value="land">Dinoasurs</option>
+                </select>
+                <button id="add-dino" type="submit">Add Animal</button>
+            </form>
+        </aside>
+        <section id="mesozoic">
+            <h2>Mesozoic</h2>
+            <img src="https://tse4.mm.bing.net/th/id/OIP.mF5GoXyO9KuHiSTYe8FW-AHaEk?w=272&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="mesozoic_pic">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et netus et malesuada fames. Morbi leo urna molestie at elementum eu facilisis. Viverra maecenas accumsan lacus vel facilisis volutpat est velit egestas. Rhoncus est pellentesque elit ullamcorper. Dolor sit amet consectetur adipiscing. Sagittis aliquam malesuada bibendum arcu vitae elementum curabitur vitae nunc. Lacus viverra vitae congue eu consequat ac felis donec et. Leo in vitae turpis massa sed. Sit amet purus gravida quis blandit turpis.
+            Semper eget duis at tellus at urna condimentum mattis. Ullamcorper sit amet risus nullam eget felis eget nunc lobortis. Egestas fringilla phasellus faucibus scelerisque eleifend. Purus sit amet volutpat consequat. Nulla aliquet enim tortor at auctor. Arcu non odio euismod lacinia at quis risus sed. Vestibulum sed arcu non odio euismod lacinia at quis. Turpis egestas sed tempus urna et pharetra pharetra. Venenatis cras sed felis eget. Nisl purus in mollis nunc sed id. Arcu bibendum at varius vel pharetra vel turpis nunc eget. Libero justo laoreet sit amet cursus sit amet. Blandit volutpat maecenas volutpat blandit aliquam.</p>
+        </section>
+        <section id="DinosaurList">
+            <h1>List of Dinosaurs Of the Mesozoic</h1>
+        </section>
     </main>
     <script src="./node_modules/axios/dist/axios.min.js"></script>
     <script src="main.js"></script>
