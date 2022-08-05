@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Tyrannosaurus Rex",
+        "dinoImg": "https://tse2.mm.bing.net/th/id/OIP.hczKc10FmlEn2oyS0I25yAHaHa?w=179&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+        "dinoPeriod": "Cretaceous",
+        "dinoType": "Dinosaur"
+    },
+    {
+        "name": "Allosuarus",
+        "dinoImg": "https://tse4.mm.bing.net/th/id/OIP.IpJsmaqbNIYnuMzx2P2j4gHaFr?w=249&h=191&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+        "dinoPeriod": "Jurassic",
+        "dinoType": "Dinosaur"
+    },
+    {
+        "name": "Dimorphodon",
+        "dinoImg": "https://th.bing.com/th/id/OIP.muM8eLbhemNi-HL420prUwHaFw?w=211&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+        "dinoPeriod": "Jurassic",
+        "dinoType": "Flying"
+    },
+    {
+        "name": "Diplodocus",
+        "dinoImg": "https://th.bing.com/th/id/OIP.rlvMu9Ze4LYILAOti5KESwHaFa?w=205&h=184&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+        "dinoPeriod": "Jurassic",
+        "dinoType": "Dinosaur"
+    },
+    {
+        "name": "Brachiosaurus",
+        "dinoImg": "https://th.bing.com/th/id/OIP.hKA3xyTasJWhbiljToao_QHaI8?w=145&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+        "dinoPeriod": "Jurassic",
+        "dinoType": "Dinosaur"
+    },
+    {
+        "name": "Quetzalcoatlus",
+        "dinoImg": "https://th.bing.com/th/id/OIP.27hguv0YRivd_a0DVYi3nwHaJt?w=139&h=183&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+        "dinoPeriod": "Cretaceous",
+        "dinoType": "Flying"
+    },
+    {
+        "name": "Icythosaurus",
+        "dinoImg": "https://th.bing.com/th/id/OIP.TbgVB_zmGeI1ac55BPfkUwHaHa?w=167&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+        "dinoPeriod": "Jurassic",
+        "dinoType": "Aquatic"
+    },
+    {
+        "name": "Mosasaurus",
+        "dinoImg": "https://th.bing.com/th/id/OIP.BkIRSGthW_JWhUEJzj5C0QHaF8?w=208&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+        "dinoPeriod": "Cretaceous",
+        "dinoType": "Aquatic"
+    }
+]

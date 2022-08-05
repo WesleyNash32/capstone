@@ -1,11 +1,8 @@
-const { default: axios } = require("axios")
-const { application } = require("express")
-
 const form = document.getElementById('dinosaur-form')
 const mesozoic = document.getElementById('mesozoic')
 const list = document.getElementById('DinosaurList')
 
-const baseURL = `http://localhost:4040/Front-End/home.html`
+const baseURL = `http://localhost:4040/api/dinosaurs`
 
 const dinoCallBack = ({ data: dinosaurs }) => displayDinosaurs(dinosaurs)
 const errCallBack = err => console.log(err.response.data)
@@ -18,21 +15,21 @@ function submitDinoForm(dinosaur) {
     let name = document.getElementById('dino-name')
     let dinoImg = document.getElementById('dino-img')
     let dinoPeriod = document.getElementById('periods')
-    let dinotype = document.getElementById('type-of-dino')
+    let dinoType = document.getElementById('type-of-dino')
 
     let dinoCardBody = {
         name: name.value,
         dinoImg: dinoImg.value,
         dinoPeriod: dinoPeriod.value,
-        dinotype: dinotype.value
+        dinoType: dinoType.value
     }
 
     createDino(dinoCardBody)
 
     name.value = ''
     dinoImg.value = ''
-    dinoPeriod.value = dropdown.value
-    dinotype.value = dropdown.value
+    dinoPeriod.value = 'Triassic'
+    dinoType.value = 'Aquatic'
 }
 
 function createDinoCard(dino){
@@ -40,8 +37,8 @@ function createDinoCard(dino){
     dinoCard.classList.add('dino-card')
     dinoCard.innerHTML = `<h4 class="dinoName">${dino.name}</h4>
     <img class="dino-image" src="${dino.dinoImg}" alt="dinosaur"/>
-    <select class="era">${dino.dinoPeriod}</select>
-    <select class="type">${dino.dinotype}</select>`
+    <h3 class="era">${dino.dinoPeriod}</h3>
+    <h3 class="type">${dino.dinoType}</h3>`
 
     list.appendChild(dinoCard)
 }
