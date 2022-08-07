@@ -7,7 +7,7 @@
     },
     {
         "name": "Allosuarus",
-        "dinoImg": "https://tse4.mm.bing.net/th/id/OIP.IpJsmaqbNIYnuMzx2P2j4gHaFr?w=249&h=191&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+        "dinoImg": "https://tse3.mm.bing.net/th/id/OIP.YeOpuZ70yvO3jA4jhujkRwHaFY?w=218&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7",
         "dinoPeriod": "Jurassic",
         "dinoType": "Dinosaur"
     },
@@ -36,7 +36,7 @@
         "dinoType": "Flying"
     },
     {
-        "name": "Icythosaurus",
+        "name": "Icthyosaurus",
         "dinoImg": "https://th.bing.com/th/id/OIP.TbgVB_zmGeI1ac55BPfkUwHaHa?w=167&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7",
         "dinoPeriod": "Jurassic",
         "dinoType": "Aquatic"
